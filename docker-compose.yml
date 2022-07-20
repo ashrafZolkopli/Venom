@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  whatsapp:
+    build: .
+    command: npm start
+    ports:
+      - "3000:3000"
